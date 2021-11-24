@@ -2,7 +2,7 @@ import numpy as np
 
 
 class Model:
-    def train(self, iterations=100, learning_rate=0.00001):
+    def train(self, iterations, learning_rate):
         pass
 
     def predict(self, x):
